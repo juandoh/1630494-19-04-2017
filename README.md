@@ -4,5 +4,9 @@
 ps -A | wc -l
 
 # Este es el ejercicio numero 2
-export POTENCIA=$((2**4))
+export POTENCIA=$((2**4));
 echo $POTENCIA
+
+# Este es el ejercicio numero 3
+ps -A | tail -n +2 | wc -l
+
